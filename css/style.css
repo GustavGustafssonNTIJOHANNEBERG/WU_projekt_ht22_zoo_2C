@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    grid-template-rows: 100px 20px minmax(500px, 1fr) 100px;
+}
+
+header {
+    background-color: rgb(143, 0, 0);
+    display: flex;
+    
+    display: grid;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(214, 129, 0);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section{background-color: aquamarine;}
+
+article{
+    background-color: yellow;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+#apaone{
+    width: 100%;
+    height: auto;
+}
